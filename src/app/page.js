@@ -1,5 +1,6 @@
 'use client';
 
+import "@/lib/dataService"
 import { useState, useEffect, useCallback } from 'react';
 import MarketOverview from '@/components/MarketOverview';
 import MarketAnalysis from '@/components/MarketAnalysis';
