@@ -163,8 +163,8 @@ npm start
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/api/market` | GET | Top 50 cryptocurrencies with prices, volumes, charts |
-| `/api/market?limit=20` | GET | Limit results (max 100) |
+| `/api/market` | GET | Top 250 cryptocurrencies with prices, volumes, charts |
+| `/api/market?limit=250` | GET | Limit results (max 100) |
 | `/api/global` | GET | Total market cap, volume, BTC/ETH dominance |
 | `/api/trending` | GET | Currently trending coins |
 
@@ -195,12 +195,6 @@ npm start
 - **Premium UI** - Dark mode with gradients and animations
 - **Error Handling** - Graceful degradation when API fails
 - **SEO Optimized** - Meta tags for social sharing
-
----
-
-## License
-
-MIT License - Feel free to use this project in your portfolio!
 
 ---
 
