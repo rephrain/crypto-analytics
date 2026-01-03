@@ -11,7 +11,8 @@ import {
     Tooltip,
     Legend,
     Filler,
-    TimeScale
+    TimeScale,
+    LineController
 } from 'chart.js';
 import { useState, useMemo, useEffect } from 'react';
 import { formatPrice, formatNumber, formatPercentage } from '@/lib/dataService';
@@ -27,7 +28,8 @@ ChartJS.register(
     Tooltip,
     Legend,
     Filler,
-    TimeScale
+    TimeScale,
+    LineController
 );
 
 /**

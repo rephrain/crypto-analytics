@@ -12,7 +12,8 @@ import {
     Tooltip,
     Legend,
     Filler,
-    TimeScale
+    TimeScale,
+    LineController
 } from 'chart.js';
 import { CandlestickController, CandlestickElement } from 'chartjs-chart-financial';
 import 'chartjs-adapter-date-fns';
@@ -30,7 +31,8 @@ ChartJS.register(
     Filler,
     TimeScale,
     CandlestickController,
-    CandlestickElement
+    CandlestickElement,
+    LineController
 );
 
 export default function CoinDetailModal({ coin: initialCoin, onClose }) {

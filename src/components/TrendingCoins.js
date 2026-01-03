@@ -11,7 +11,8 @@ import {
     Title,
     Tooltip,
     Legend,
-    Filler
+    Filler,
+    LineController
 } from 'chart.js';
 import { formatPrice, formatNumber, formatPercentage } from '@/lib/dataService';
 import CoinDetailModal from './CoinDetailModal';
@@ -25,7 +26,8 @@ ChartJS.register(
     Title,
     Tooltip,
     Legend,
-    Filler
+    Filler,
+    LineController
 );
 
 /**

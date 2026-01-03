@@ -13,7 +13,8 @@ import {
     Title,
     Tooltip,
     Legend,
-    Filler
+    Filler,
+    LineController
 } from 'chart.js';
 
 // Register Chart.js components
@@ -25,7 +26,8 @@ ChartJS.register(
     Title,
     Tooltip,
     Legend,
-    Filler
+    Filler,
+    LineController
 );
 
 /**
