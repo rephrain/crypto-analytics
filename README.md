@@ -125,7 +125,7 @@ crypto-analytics/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/crypto-analytics.git
+git clone https://github.com/rephrain/crypto-analytics.git
 cd crypto-analytics
 
 # Install dependencies
@@ -149,7 +149,7 @@ npm start
 ## Deployment (Vercel)
 
 ### Option 1: One-Click Deploy
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/crypto-analytics)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rephrain/crypto-analytics)
 
 ### Option 2: Manual Deploy
 1. Push code to GitHub
@@ -163,8 +163,8 @@ npm start
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/api/market` | GET | Top 250 cryptocurrencies with prices, volumes, charts |
-| `/api/market?limit=250` | GET | Limit results (max 100) |
+| `/api/market` | GET | Top 50 cryptocurrencies with prices, volumes, charts |
+| `/api/market?limit=20` | GET | Limit results (max 100) |
 | `/api/global` | GET | Total market cap, volume, BTC/ETH dominance |
 | `/api/trending` | GET | Currently trending coins |
 
@@ -195,6 +195,12 @@ npm start
 - **Premium UI** - Dark mode with gradients and animations
 - **Error Handling** - Graceful degradation when API fails
 - **SEO Optimized** - Meta tags for social sharing
+
+---
+
+## License
+
+MIT License - Feel free to use this project in your portfolio!
 
 ---
 
